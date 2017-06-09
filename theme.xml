@@ -1,0 +1,141 @@
+<!--
+theme name:     TFT
+version:        1.0
+author:         Anthony
+license:        creative commons CC-BY-NC-SA
+credit:         controller artwork originally from Carbon theme
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+      </helpsystem>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>
+         <path>./_inc/images/background.png</path>
+         <zIndex>1</zIndex>
+      </image>
+   </view>
+   <view name="system">
+      <image name="controller" extra="true">
+        <origin>0.5 0</origin>
+        <pos>0.5 0.12</pos>
+        <maxSize>0.5 0.5</maxSize>
+         <zIndex>5</zIndex>
+      </image>
+      <carousel name="systemcarousel">
+         <type>horizontal</type>
+         <pos>0 0.74</pos>
+         <size>1 0.075</size>
+         <color>00000000</color>
+         <logoSize>0.5625 0.075</logoSize>
+         <logoScale>1</logoScale>
+         <maxLogoCount>1</maxLogoCount>
+         <zIndex>5</zIndex>
+      </carousel>
+      <text name="systemInfo">
+         <backgroundColor>00000000</backgroundColor>
+         <pos>0 0.84</pos>
+         <color>555555</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.05</fontSize>
+         <zIndex>5</zIndex>
+      </text>
+   </view>
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <origin>.5 0</origin>
+         <pos>0.5 0.075</pos>
+         <maxSize>0.5625 0.075</maxSize>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.05 0.225</pos>
+         <size>0.9 0.725</size>
+         <selectorColor>000000ff</selectorColor>
+         <selectedColor>bba358</selectedColor>
+         <primaryColor>eaeaea</primaryColor>
+         <secondaryColor>eaeaea</secondaryColor>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.0583333333333333</fontSize>
+         <scrollSound>./_inc/sounds/select.wav</scrollSound>
+         <forceUppercase>1</forceUppercase>
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+   <view name="detailed,video">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+         <pos>1 1</pos>
+      </text>
+      <datetime name="md_releasedate,md_lastplayed">
+         <pos>1 1</pos>
+      </datetime>
+      <rating name="md_rating">
+         <pos>1 1</pos>
+      </rating>
+      <image name="logo">
+         <origin>0 0</origin>
+         <pos>0.04375 0.075</pos>
+         <zIndex>40</zIndex>
+      </image>
+      <image name="md_image">
+         <origin>0.62 0</origin>
+         <pos>1 0</pos>
+         <size>0 1</size>
+         <zIndex>10</zIndex>
+      </image>
+      <image name="media_background" extra="true">
+         <origin>0 0</origin>
+         <pos>0.6625 0</pos>
+         <size>0.3375 1</size>
+         <path>./_inc/images/border.png</path>
+         <color>000000ff</color>
+         <zIndex>5</zIndex>
+      </image>
+      <image name="border" extra="true">
+         <origin>0 0</origin>
+         <pos>0.65625 0</pos>
+         <size>0.00625 1</size>
+         <path>./_inc/images/border.png</path>
+         <color>000000ff</color>
+         <zIndex>30</zIndex>
+      </image>
+      <image name="gamelist_background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>0.65625 1</size>
+         <tile>true</tile>
+         <path>./_inc/images/background.png</path>
+         <zIndex>30</zIndex>
+      </image>
+      <textlist name="gamelist">
+         <pos>0 0.225</pos>
+         <size>0.65625 0.725</size>
+         <alignment>left</alignment>
+         <horizontalMargin>0.038</horizontalMargin>
+         <zIndex>40</zIndex>
+      </textlist>
+   </view>
+   <view name="video">
+      <image name="md_marquee">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+      <image name="md_image">
+          <pos>1 1</pos>
+          <origin>0 0</origin>
+      </image>
+      <video name="md_video">
+         <origin>0.62 0</origin>
+         <pos>1 0</pos>
+         <maxSize>1 1</maxSize>
+         <delay>0.2</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <zIndex>10</zIndex>
+      </video>
+   </view>
+</theme>
