@@ -9,23 +9,25 @@ Design wise I am going for a layout that gives a small glimpse of the game selec
 ## Preview
 
 ### System View
-![System View](http://i.imgur.com/XTKLxin.gif)
+![System View](http://i.imgur.com/wvpSbcF.png)
 
 ### Detailed & Video View
-![Detailed View](http://i.imgur.com/VKNgZ0p.gif)
+![Detailed View](http://i.imgur.com/khcnVt3.png)
+
+### Basic View
+![Detailed View](http://i.imgur.com/6XtLcnS.png)
 
 ## Details
+- *This theme will only work on the latest version of retropie/ES with z-index support*
 - Designed and tested at 320x240 resolution 
 - Support for system, basic, detailed and video views
 - Detail view works best with game screenshots (please scrape screenshots instead of boxart to get the look seen in the image above)
 - If using on a pi1/zero please scrape game screenshots only (I have found videos only play smoothly on pi2/3)
 - A matching splashscreen is included in the \_inc/images folder
-- I am not sure how to handle display of system logos on detail and video views - I kind of like the way it looks without them but I am still trying out options.
 
 ## Acknowledgments
 - Thank you to @jdrassa for fixing an issue in ES that allowed this layout to be possible
-- All Logo graphics are from the default Carbon theme made by Eric Hettervik (see: https://github.com/RetroPie/es-theme-carbon/)
+- All controller graphics are from the default Carbon theme made by Eric Hettervik (see: https://github.com/RetroPie/es-theme-carbon/)
 
 ## Possible Future Updates
 - UXS profiles to streamline scraping
-- Try displaying system logos into detail/video view
