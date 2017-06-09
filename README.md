@@ -1,4 +1,4 @@
-# CRT-TFT, an EmulationStation theme made for small screens
+# TFT, an EmulationStation theme made for small screens
 
 This is very much a work in progress =)
 
