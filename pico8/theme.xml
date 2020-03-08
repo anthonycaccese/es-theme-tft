@@ -13,7 +13,7 @@
    </view>
    <view name="system">
       <image name="controller" extra="true">
-         <path>./_inc/controller.png</path>
+         <path>./_inc/controller.svg</path>
       </image>
    </view>
 </theme>
