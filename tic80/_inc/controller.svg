@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   sodipodi:docname="controller.svg"
+   id="svg356"
+   version="1.1"
+   width="598.189"
+   viewBox="0 0 598.189 350.26"
+   height="350.26">
+  <metadata
+     id="metadata362">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs360" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg356"
+     inkscape:window-maximized="0"
+     inkscape:window-y="34"
+     inkscape:window-x="12"
+     inkscape:cy="190.36028"
+     inkscape:cx="264.58389"
+     inkscape:zoom="7.5"
+     showgrid="true"
+     id="namedview358"
+     inkscape:window-height="982"
+     inkscape:window-width="1656"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:document-rotation="0"
+     bordercolor="#666666"
+     pagecolor="#ffffff">
+    <inkscape:grid
+       id="grid396"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <path
+     inkscape:connector-curvature="0"
+     d="M 214.28571,51.42857 V 65.714284 H 200 V 265.71428 h 14.28571 V 280 h 71.42858 V 265.71428 H 300 V 280 h 71.42857 v -14.28572 h 14.28572 V 251.42857 H 400 v -57.14286 h 14.28571 V 180 h 14.28572 V 108.57143 H 400 V 65.714284 H 385.71429 V 51.42857 Z m 14.28572,14.285714 h 142.85714 v 14.285715 h 14.28572 V 165.71428 H 400 v -42.85714 h 14.28571 v 42.85714 H 400 V 180 h -14.28571 v 57.14286 h -14.28572 v 14.28571 h -14.28571 v 14.28571 h -42.85715 v -14.28571 h -42.85714 v 14.28571 H 228.57143 V 251.42857 H 214.28571 V 79.999999 h 14.28572 z m 0,42.857146 V 180 h 128.57143 v -71.42857 z m 28.57143,14.28571 h 14.28571 v 42.85714 h -14.28571 z m 57.14285,0 h 14.28572 v 42.85714 h -14.28572 z m -57.14285,71.42857 v 14.28572 h 14.28571 v -14.28572 z m 14.28571,14.28572 v 14.28571 h 42.85714 v -14.28571 z m 42.85714,0 h 14.28572 v -14.28572 h -14.28572 z"
+     style="fill:none;fill-opacity:1;stroke:#f4f4f4;stroke-width:1.5;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     id="rect416" />
+</svg>
