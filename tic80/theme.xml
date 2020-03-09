@@ -1,0 +1,19 @@
+<theme>
+   <formatVersion>4</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="controller" extra="true">
+         <maxSize>0.5 0.5</maxSize>
+      </image>
+   </view>
+   <view name="system, basic, detailed, video">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+   </view>
+   <view name="system">
+      <image name="controller" extra="true">
+         <path>./_inc/controller.svg</path>
+      </image>
+   </view>
+</theme>
